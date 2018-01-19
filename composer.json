@@ -1,0 +1,22 @@
+{
+    "name": "ailixter/puzzle-middleware5",
+    "description": "Description of project Puzzle.Middleware.",
+    "authors": [
+        {
+            "name": "ailixter",
+            "email": "ailixter@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Ailixter\\Puzzle\\": "src/",
+            "Ailixter\\Puzzle\\Example\\": "example/"
+        }
+    },
+    "require": {
+        "psr/http-message": "^1.0"
+    },
+    "require-dev": {
+        "http-interop/http-factory-guzzle": "^0.3.1"
+    }
+}
